@@ -1,14 +1,7 @@
-<main>
-    <img src="../assets/images/angular.png">
-    <h2>My Heroes</h2>
-    <ul class="heroes">
-        <li *ngFor="let hero of heroes"
-            [class.selected]="hero === selectedHero"
-            (click)="onSelect(hero)">
-            <span class="badge">{{ hero.id }}</span>
-            {{ hero.name }}
-        </li>
-    </ul>
+<h1>{{ title }}</h1>
+<nav>
+    <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+    <a routerLink="/heroes" routerLinkActive="active">Heroes</a>
+</nav>
 
-    <my-hero-detail [hero]="selectedHero"></my-hero-detail>
-</main>
+<router-outlet></router-outlet>
