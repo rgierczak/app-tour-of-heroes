@@ -2,6 +2,8 @@
 
 > This is the Angular 2 tour of heroes tutorial.
 
+![](https://angular.io/resources/images/devguide/intro/people.png)
+
 ## Installation
 
 ```
