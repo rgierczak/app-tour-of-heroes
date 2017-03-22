@@ -13,7 +13,7 @@ $ npm install
 ## Usage
 
 ```
-$ npm run build:webpack
+$ npm run start
 ```
 
 Run the project in your browser
